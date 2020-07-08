@@ -1,4 +1,3 @@
-
 #include<stdio.h>
 #include <stdlib.h>
 #include<string.h>
@@ -30,7 +29,8 @@ printf("\n");
 }
 for(int i=0;i<10;i++)
 {
-	printf("%d\t",*ptr++);
+	printf("-%d\t",*ptr++);
+
 }
 return 0;
 }
