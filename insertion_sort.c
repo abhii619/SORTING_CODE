@@ -1,12 +1,11 @@
-
-
 #include<stdio.h>
 #include <stdlib.h>
 #include<string.h>
 
 
 int main (void)
-{
+ { 
+	 int var=0;
 int *ptr=(int*)malloc(sizeof(int)*10);
 printf("enter values in the array");
 for(int i=0;i<10;i++)
